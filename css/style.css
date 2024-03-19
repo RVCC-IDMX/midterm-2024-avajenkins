@@ -4,6 +4,7 @@
 header {
     text-align: center;
     padding: 20px;
+    background-color: #d989c5; /* Change background color to pink */
 }
 
 #hero {
@@ -11,7 +12,6 @@ header {
     background-color: #d989c5; 
     padding: 20px;
     border: 20px solid hotpink; /* Add border with hot pink color */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow */
 }
 
 #hero img {
@@ -19,7 +19,7 @@ header {
 }
 
 #hero p {
-    font-family: 'Roboto', sans-serif; /* Change font */
+    font-family: 'Open Sans', sans-serif; 
     font-size: 24px;
 }
 
@@ -27,15 +27,12 @@ header {
 #projects {
     padding: 20px;
     background-color: #e389e8;
-    border: 10px solid #d989c5; /* Add border */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow */
 }
 
 #projects h2 {
-    font-family: 'Pacifico', cursive; /* Change font */
+    font-family: 'Montserrat', sans-serif;
     color: #333;
     margin-bottom: 20px;
-    font-weight: bold; /* Increase font weight */
 }
 
 .project {
@@ -44,8 +41,8 @@ header {
 }
 
 .project img {
-    width: 120px; /* Make images slightly bigger */
-    height: 120px; /* Make images slightly bigger */
+    width: 100px; /* Set width to 100 pixels */
+    height: 100px; /* Set height to 100 pixels */
     margin-right: 20px;
 }
 
@@ -54,30 +51,26 @@ header {
 }
 
 .project h3 {
-    font-family: 'Pacifico', cursive; /* Change font */
+    font-family: 'Montserrat', sans-serif;
     color: #333;
     margin-bottom: 10px;
-    font-weight: bold; /* Increase font weight */
 }
 
 .project p {
-    font-family: 'Roboto', sans-serif; /* Change font */
+    font-family: 'Montserrat', sans-serif;
     color: #666;
 }
 
 /* Reviews */
 #reviews {
     padding: 20px;
-    background-color: #d989c5;
-    border: 10px solid #e389e8; /* Add border */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow */
+    background-color: #d989c5; /* Change background color to pink */
 }
 
 #reviews h2 {
-    font-family: 'Pacifico', cursive; /* Change font */
+    font-family: 'Montserrat', sans-serif;
     color: #333;
     margin-bottom: 20px;
-    font-weight: bold; /* Increase font weight */
 }
 
 .review {
@@ -89,27 +82,27 @@ header {
 }
 
 .review .name {
-    font-family: 'Pacifico', cursive; /* Change font */
+    font-family: 'Montserrat', sans-serif;
     color: #333;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 .review .title {
-    font-family: 'Roboto', sans-serif; /* Change font */
+    font-family: 'Montserrat', sans-serif;
     color: #666;
     margin-bottom: 5px;
 }
 
 .review .rating {
-    font-family: 'Pacifico', cursive; /* Change font */
+    font-family: 'Montserrat', sans-serif;
     color: #333;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 .review .content {
-    font-family: 'Roboto', sans-serif; /* Change font */
+    font-family: 'Montserrat', sans-serif;
     color: #666;
 }
 
@@ -117,8 +110,12 @@ header {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
-    color: #fff;
+    background-color: #d989c5; /* Change background color to pink */
+}
+
+/* Spacer */
+.spacer {
+    height: 20px; /* Adjust as needed */
 }
 
 /* Media state for Desktop site */
@@ -142,8 +139,8 @@ footer {
     }
 
     .project img {
-        width: 120px; /* Make images slightly bigger */
-        height: 120px; /* Make images slightly bigger */
+        width: 120px; /* Increase image size */
+        height: 120px;
     }
 
     /* Reviews */
