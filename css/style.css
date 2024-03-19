@@ -8,6 +8,8 @@ header {
 
 #hero {
     margin-top: 20px;
+    background-color: #f9f9f9; /* Revert to old color */
+    padding: 20px;
 }
 
 #hero img {
@@ -15,7 +17,7 @@ header {
 }
 
 #hero p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; /* Revert to old font */
     font-size: 24px;
 }
 
