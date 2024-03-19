@@ -13,7 +13,7 @@ header {
 }
 
 #hero img {
-    max-width: 100%;
+    max-width: 50%; /* Reduce image size */
 }
 
 #hero p {
@@ -39,7 +39,7 @@ header {
 }
 
 .project img {
-    flex: 0 0 200px;
+    flex: 0 0 50%; /* Reduce image size */
     margin-right: 20px;
 }
 
@@ -132,7 +132,7 @@ footer {
     }
 
     .project img {
-        flex: 0 0 300px;
+        flex: 0 0 50%; /* Reduce image size */
     }
 
     /* Reviews */
