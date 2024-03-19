@@ -4,14 +4,17 @@
 header {
     text-align: center;
     padding: 20px;
-    background-color: #d989c5; /* Change background color to pink */
+    background-color: #d989c5; 
 }
-
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px; 
+    font-weight: bold; }
 #hero {
     margin-top: 20px;
     background-color: #d989c5; 
     padding: 20px;
-    border: 20px solid hotpink; /* Add border with hot pink color */
+    border: 20px solid hotpink; 
 }
 
 #hero img {
@@ -41,8 +44,8 @@ header {
 }
 
 .project img {
-    width: 100px; /* Set width to 100 pixels */
-    height: 100px; /* Set height to 100 pixels */
+    width: 100px; 
+    height: 100px; 
     margin-right: 20px;
 }
 
@@ -64,7 +67,7 @@ header {
 /* Reviews */
 #reviews {
     padding: 20px;
-    background-color: #d989c5; /* Change background color to pink */
+    background-color: #d989c5; 
 }
 
 #reviews h2 {
@@ -110,12 +113,11 @@ header {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #d989c5; /* Change background color to pink */
-}
+    background-color: #d989c5; }
 
 /* Spacer */
 .spacer {
-    height: 20px; /* Adjust as needed */
+    height: 20px; 
 }
 
 /* Media state for Desktop site */
