@@ -11,7 +11,7 @@ header h1 {
     font-size: 36px;
     font-weight: bold;
 }
-#hero {
+#hero {font-family: 'Pacifico', cursive;
     margin-top: 20px;
     background-color: #D94E4E; 
     padding: 20px;
