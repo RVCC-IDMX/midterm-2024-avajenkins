@@ -1,111 +1,149 @@
 /* Styles for Mobile Site */
 
-/* Body */
-body {
-    background-color: #ecf0f1; /* Light gray */
-}
-
 /* Header & Hero */
 header {
-    background-color: #2c3e50; /* Dark blue */
-    color: #ffffff;
     text-align: center;
     padding: 20px;
-    font-family: 'Pacifico', cursive; /* Applying Pacifico font */
+}
+
+#hero {
+    margin-top: 20px;
 }
 
 #hero img {
-    width: 100%;
-    height: auto;
+    max-width: 100%;
 }
 
 #hero p {
-    color: #ffffff;
-    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
 }
 
 /* Projects */
+#projects {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+#projects h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+
 .project {
     display: flex;
-    flex-direction: column;
     margin-bottom: 20px;
 }
 
 .project img {
-    width: 100%;
-    height: auto;
+    flex: 0 0 200px;
+    margin-right: 20px;
+}
+
+.project .description {
+    flex: 1;
+}
+
+.project h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
     margin-bottom: 10px;
 }
 
+.project p {
+    font-family: 'Montserrat', sans-serif;
+    color: #666;
+}
+
 /* Reviews */
-.review {
-    border: none;
-    background-color: #ffffff;
+#reviews {
     padding: 20px;
+    background-color: #f9f9f9;
+}
+
+#reviews h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
     margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 .review .name {
-    color: #34495e; /* Darker blue */
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 .review .title {
-    color: #7f8c8d; /* Gray */
-    font-style: italic;
-    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #666;
+    margin-bottom: 5px;
 }
 
 .review .rating {
-    color: #e67e22; /* Orange */
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .review .content {
-    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    color: #666;
 }
 
 /* Footer */
 footer {
-    background-color: #2c3e50; /* Dark blue */
-    color: #ffffff;
     text-align: center;
-    padding: 10px;
-    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
 }
 
 /* Media state for Desktop site */
 @media (min-width: 1000px) {
-
     /* Header & Hero */
     header {
         padding: 40px;
     }
 
+    #hero {
+        margin-top: 40px;
+    }
+
     #hero p {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     /* Projects */
-    .project {
-        flex-direction: row;
+    #projects {
+        padding: 40px;
     }
 
     .project img {
-        flex: 0 0 200px;
-        margin-right: 20px;
+        flex: 0 0 300px;
     }
 
     /* Reviews */
+    #reviews {
+        padding: 40px;
+    }
+
     .review {
-        padding: 30px;
+        padding: 40px;
     }
 
     /* Footer */
     footer {
-        padding: 20px;
+        padding: 40px;
     }
 }
