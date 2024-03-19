@@ -4,17 +4,18 @@
 header {
     text-align: center;
     padding: 20px;
-    background-color: #d989c5; 
+    background-color: #3A2D1F; /* Dark Brown */
 }
 header h1 {
     font-family: 'Pacifico', cursive;
-    font-size: 36px; 
-    font-weight: bold; }
+    font-size: 36px;
+    font-weight: bold;
+}
 #hero {
     margin-top: 20px;
-    background-color: #d989c5; 
+    background-color: #D94E4E; /* Red */
     padding: 20px;
-    border: 20px solid hotpink; 
+    border: 20px solid #D99B53; /* Orange */
 }
 
 #hero img {
@@ -22,19 +23,19 @@ header h1 {
 }
 
 #hero p {
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
     font-size: 24px;
 }
 
 /* Projects */
 #projects {
     padding: 20px;
-    background-color: #e389e8;
+    background-color: #D2CF8A; /* Light Yellow */
 }
 
 #projects h2 {
     font-family: 'Montserrat', sans-serif;
-    color: #333;
+    color: #7AA573; /* Green */
     margin-bottom: 20px;
 }
 
@@ -44,8 +45,8 @@ header h1 {
 }
 
 .project img {
-    width: 100px; 
-    height: 100px; 
+    width: 100px;
+    height: 100px;
     margin-right: 20px;
 }
 
@@ -55,30 +56,30 @@ header h1 {
 
 .project h3 {
     font-family: 'Montserrat', sans-serif;
-    color: #333;
+    color: #7AA573; /* Green */
     margin-bottom: 10px;
 }
 
 .project p {
     font-family: 'Montserrat', sans-serif;
-    color: #666;
+    color: #3A2D1F; /* Dark Brown */
 }
 
 /* Reviews */
 #reviews {
     padding: 20px;
-    background-color: #d989c5; 
+    background-color: #D94E4E; /* Red */
 }
 
 #reviews h2 {
     font-family: 'Montserrat', sans-serif;
-    color: #333;
+    color: #7AA573; /* Green */
     margin-bottom: 20px;
 }
 
 .review {
     padding: 30px;
-    background-color: #fff;
+    background-color: #D99B53; /* Orange */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
@@ -86,38 +87,39 @@ header h1 {
 
 .review .name {
     font-family: 'Montserrat', sans-serif;
-    color: #333;
+    color: #3A2D1F; /* Dark Brown */
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 .review .title {
     font-family: 'Montserrat', sans-serif;
-    color: #666;
+    color: #D2CF8A; /* Light Yellow */
     margin-bottom: 5px;
 }
 
 .review .rating {
     font-family: 'Montserrat', sans-serif;
-    color: #333;
+    color: #3A2D1F; /* Dark Brown */
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 .review .content {
     font-family: 'Montserrat', sans-serif;
-    color: #666;
+    color: #3A2D1F; /* Dark Brown */
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #d989c5; }
+    background-color: #3A2D1F; /* Dark Brown */
+}
 
 /* Spacer */
 .spacer {
-    height: 20px; 
+    height: 20px;
 }
 
 /* Media state for Desktop site */
@@ -141,7 +143,7 @@ footer {
     }
 
     .project img {
-        width: 120px; /* Increase image size */
+        width: 120px;
         height: 120px;
     }
 
