@@ -1,23 +1,80 @@
 /* Styles for Mobile Site */
 
 /* Header & Hero */
+header {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+#hero img {
+    width: 100%;
+    height: auto;
+}
+
+#hero p {
+    color: #ffffff;
+    font-size: 20px;
+}
 
 /* Projects */
+.project {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
 
 /* Reviews */
+.review {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
 
 /* Footer */
-
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
 
 /* Media state for Desktop site */
 @media (min-width: 1000px) {
 
     /* Header & Hero */
+    header {
+        padding: 40px;
+    }
+
+    #hero p {
+        font-size: 24px;
+    }
 
     /* Projects */
+    .project {
+        flex-direction: row;
+    }
+
+    .project img {
+        flex: 0 0 200px;
+        margin-right: 20px;
+    }
 
     /* Reviews */
+    .review {
+        padding: 20px;
+    }
 
     /* Footer */
-
+    footer {
+        padding: 20px;
+    }
 }
